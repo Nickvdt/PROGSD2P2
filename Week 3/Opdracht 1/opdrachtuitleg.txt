@@ -1,0 +1,17 @@
+a. $_SERVER[‘REQUEST_METHOD’]
+
+Retourneert de request method die is gebruikt om toegang te krijgen tot de pagina (zoals POST)
+
+b. $_POST['submit']
+Wordt gebruikt voor formulieren.
+
+c.  $_SERVER['REQUEST_METHOD'] kijkt of er ergens een POST data is gepost
+
+d. Pas een Validatie filter toe op je form data
+
+e. Pas een Sanitize filter toe op je form data
+
+f.
+stripslashes: haalt backslashes weg
+addslashes: Voeg een backslash toe voor elk dubbel aanhalingsteken "
+htmlspecialchars: Deze functie converteert speciale karakters naar HTML entities
