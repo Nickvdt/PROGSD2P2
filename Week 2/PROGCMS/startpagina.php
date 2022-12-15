@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-  <?php include "./private/shared/header.php" ?>
+  <?php include "/private/shared/header.php" ?>
 </header>
 
 <h1>
@@ -15,7 +15,7 @@
 </h1>
 
 <footer>
-<?php include "./private/shared/footer.php" ?>
+<?php include "/private/shared/footer.php" ?>
 </footer>
 
 </body>

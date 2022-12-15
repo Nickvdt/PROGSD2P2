@@ -38,7 +38,7 @@ if (!isset($_POST['user'], $_POST['email'],$_POST['message'],$_POST['button'])) 
         echo'Ongeldige email';
     }
 
-    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL, )) {
         echo 'Ongeldig email formaat';
     }
     if (empty(trim(stripslashes(htmlspecialchars($_POST['message']))))) {
