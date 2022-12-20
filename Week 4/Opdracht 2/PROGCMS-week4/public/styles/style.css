@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: lightcyan;
+    box-shadow: 0 2.0rem 5rem rgb(0 0 0 / 25%);
+}
